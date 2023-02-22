@@ -26,11 +26,11 @@ public class MovePlatform : MonoBehaviour
         ObjetoAmover.transform.position = Vector3.MoveTowards (ObjetoAmover.transform.position, MoverHacia, Velocidad * Time.deltaTime);
         if(ObjetoAmover.transform.position == EndPoint.position)
         {
-            Noverhacia - StertPoint.position;
+            MoverHacia = StartPoint.position;
         }
-        if (ObjetoAmover. transform.position == Stertpoint.position)
+        if (ObjetoAmover. transform.position == StartPoint.position)
         {
-            Moverhacia - Endpoint.position;
+            MoverHacia = EndPoint.position;
         }
     }
 }
