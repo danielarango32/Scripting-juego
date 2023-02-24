@@ -7,7 +7,7 @@ public class ControlMenu : MonoBehaviour
 {
     public void OnPressJugar()
     {
-        SceneManager.LoadScene("Juego", LoadSceneMode.Single);
+        SceneManager.LoadScene("nivel 1", LoadSceneMode.Single);
     }
     public void OnPressInstrucciones()
     {
