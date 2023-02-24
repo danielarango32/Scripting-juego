@@ -1001,8 +1001,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Stairway to Heaven
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 5af1634d3242c5346a46f74d3087cff0, type: 2}
-  m_sharedMaterial: {fileID: 5271341220539246676, guid: 5af1634d3242c5346a46f74d3087cff0,
+  m_fontAsset: {fileID: 11400000, guid: b817ff584f9fb7f4ab1e79238e8234dd, type: 2}
+  m_sharedMaterial: {fileID: -2118709715504473292, guid: b817ff584f9fb7f4ab1e79238e8234dd,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
