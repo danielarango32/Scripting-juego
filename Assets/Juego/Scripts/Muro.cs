@@ -2,6 +2,8 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using MoreMountains.Tools;
+using MoreMountains.CorgiEngine;
 
 public class Muro : MonoBehaviour
 {
@@ -18,6 +20,10 @@ public class Muro : MonoBehaviour
         if (control_llaves.ContadorLlaves() == 2)
         {
             CambiarEstado(false);
+        }
+        if (control_llaves.ContadorLlaves() == 4)
+        {
+            MMSceneLoadingManager.LoadScene("nivel 2");
         }
     }
 
