@@ -740,6 +740,19 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 7486687733027180924}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &478478145
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 478478144}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 732edd9903fd439468ede388b92388cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ui_puntaje: {fileID: 478478144}
 --- !u!1 &485726435
 GameObject:
   m_ObjectHideFlags: 0
@@ -3748,11 +3761,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 446748, guid: fdf12166dff9f4240a780cfb02080351, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -46.59
+      value: -44.7
       objectReference: {fileID: 0}
     - target: {fileID: 446748, guid: fdf12166dff9f4240a780cfb02080351, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -22.33
+      value: -22.34
       objectReference: {fileID: 0}
     - target: {fileID: 446748, guid: fdf12166dff9f4240a780cfb02080351, type: 3}
       propertyPath: m_LocalPosition.z
@@ -3784,6 +3797,26 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 446748, guid: fdf12166dff9f4240a780cfb02080351, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11465032, guid: fdf12166dff9f4240a780cfb02080351, type: 3}
+      propertyPath: Activable
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11465032, guid: fdf12166dff9f4240a780cfb02080351, type: 3}
+      propertyPath: Destination
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 11465032, guid: fdf12166dff9f4240a780cfb02080351, type: 3}
+      propertyPath: AutoActivation
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11465032, guid: fdf12166dff9f4240a780cfb02080351, type: 3}
+      propertyPath: ButtonPromptText
+      value: e
+      objectReference: {fileID: 0}
+    - target: {fileID: 11465032, guid: fdf12166dff9f4240a780cfb02080351, type: 3}
+      propertyPath: RequiresButtonActivationAbility
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -4425,12 +4458,12 @@ PrefabInstance:
     - target: {fileID: 7486687733993043556, guid: 41be1b249f09a3143a66b84e434c3871,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 1041
+      value: 729.58
       objectReference: {fileID: 0}
     - target: {fileID: 7486687733993043556, guid: 41be1b249f09a3143a66b84e434c3871,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 493
+      value: 491.01
       objectReference: {fileID: 0}
     - target: {fileID: 7486687733993043556, guid: 41be1b249f09a3143a66b84e434c3871,
         type: 3}
