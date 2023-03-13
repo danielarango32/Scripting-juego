@@ -17,14 +17,15 @@ public class Muro : MonoBehaviour
 
     public void Update()
     {
-        if (control_llaves.ContadorLlaves() == 2)
+        if (control_llaves.ContadorLlaves() == 4)
         {
             CambiarEstado(false);
         }
-        if (control_llaves.ContadorLlaves() == 4)
+        /*if (control_llaves.ContadorLlaves() == 4)
         {
             MMSceneLoadingManager.LoadScene("nivel 2");
         }
+        */
     }
 
     public void CambiarEstado(bool estado)
