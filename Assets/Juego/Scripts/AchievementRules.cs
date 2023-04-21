@@ -58,13 +58,13 @@ namespace MoreMountains.CorgiEngine
 		{
 			if (pickableItemEvent.PickedItem != null)
 			{
-				if (pickableItemEvent.PickedItem.GetComponent<Coin>() != null)
+				if (pickableItemEvent.PickedItem.GetComponent<Llaves>() != null)
 				{
-					MMAchievementManager.AddProgress ("MoneyMoneyMoney", 1);
+					MMAchievementManager.AddProgress ("Llaves", 1);
 				}
-				if (pickableItemEvent.PickedItem.GetComponent<Stimpack>() != null)
+				if (pickableItemEvent.PickedItem.GetComponent<Llaves>() != null)
 				{
-					MMAchievementManager.UnlockAchievement ("Medic");
+					MMAchievementManager.UnlockAchievement ("Llaves");
 				}
 			}
 		}

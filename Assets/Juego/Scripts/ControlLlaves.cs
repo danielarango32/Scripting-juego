@@ -31,7 +31,6 @@ public class ControlLlaves : MonoBehaviour
      public int ContadorLlaves()
      {
          return contador_llaves;
-
      }
      public void ActualizarValorUI()
      {
