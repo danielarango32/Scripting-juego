@@ -14,9 +14,9 @@ public class controlMuerte : MonoBehaviour , MMEventListener<CorgiEngineEvent>,M
 
     private int vidas;
     
-    private int contador_estrellas;
+    private int contador_llaves;
 
-    [SerializeField] private int total_estrellas;
+    [SerializeField] private int total_llaves;
     
     // Start is called before the first frame update
     void Start()
@@ -32,7 +32,7 @@ public class controlMuerte : MonoBehaviour , MMEventListener<CorgiEngineEvent>,M
             if (vidas-1>=0)
             {
                 vidas--;
-                contador_estrellas = 0;
+                contador_llaves = 0;
                 corazon[vidas].SetActive(false);
             }
 
@@ -49,14 +49,14 @@ public class controlMuerte : MonoBehaviour , MMEventListener<CorgiEngineEvent>,M
     public virtual void OnMMEvent(PickableItemEvent e)
     {
         Debug.Log("Pick");
-        contador_estrellas++;
-        Debug.Log("contador estrellas" + contador_estrellas + " vidas" + vidas);
+        contador_llaves++;
+        Debug.Log("contador llaves" + contador_llaves + " vidas" + vidas);
 
-        if (contador_estrellas == total_estrellas && vidas+1<=corazon.Count)
+        if (contador_llaves == total_llaves && vidas+1<=corazon.Count)
         {
             corazon[vidas].SetActive(true);
             vidas++;
-            contador_estrellas = 0;
+            contador_llaves = 0;
             
         }
     }
