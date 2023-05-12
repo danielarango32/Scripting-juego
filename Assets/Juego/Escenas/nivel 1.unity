@@ -2508,7 +2508,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 599b5c6176b2a3b429ea07c5a44172de, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  numeroEscena: 74
+  numeroEscena: 75
 --- !u!4 &580500717 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 471364, guid: f58a667c8217aaf42b28e20ef609767b,
@@ -3192,7 +3192,7 @@ PrefabInstance:
     - target: {fileID: 4150770060127122773, guid: 61ae1ef0b5e11434eb370690d4c7abb4,
         type: 3}
       propertyPath: numeroEscena
-      value: 74
+      value: 75
       objectReference: {fileID: 0}
     - target: {fileID: 4150770060599392532, guid: 61ae1ef0b5e11434eb370690d4c7abb4,
         type: 3}
@@ -3202,7 +3202,7 @@ PrefabInstance:
     - target: {fileID: 4150770060599392532, guid: 61ae1ef0b5e11434eb370690d4c7abb4,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -43.89
+      value: -45.7
       objectReference: {fileID: 0}
     - target: {fileID: 4150770060599392532, guid: 61ae1ef0b5e11434eb370690d4c7abb4,
         type: 3}
@@ -3253,6 +3253,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: GreenGate
+      objectReference: {fileID: 0}
+    - target: {fileID: 4150770060609345856, guid: 61ae1ef0b5e11434eb370690d4c7abb4,
+        type: 3}
+      propertyPath: AddToDestinationIgnoreList
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 4150770060127122773, guid: 61ae1ef0b5e11434eb370690d4c7abb4, type: 3}

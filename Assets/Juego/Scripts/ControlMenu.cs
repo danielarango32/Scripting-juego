@@ -7,7 +7,7 @@ public class ControlMenu : MonoBehaviour
 {
     public void OnPressJugar()
     {
-        SceneManager.LoadScene("nivel 1", LoadSceneMode.Single);
+        SceneManager.LoadScene("Intro", LoadSceneMode.Single);
     }
     public void OnPressInstrucciones()
     {
@@ -16,5 +16,9 @@ public class ControlMenu : MonoBehaviour
     public void OnPressCreditos()
     {
         SceneManager.LoadScene("Creditos", LoadSceneMode.Single);
+    }
+    public void OnPressMenu()
+    {
+        SceneManager.LoadScene("MenuPrincipal", LoadSceneMode.Single);
     }
 }
