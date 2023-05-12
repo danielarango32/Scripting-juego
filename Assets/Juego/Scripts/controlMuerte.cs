@@ -72,4 +72,5 @@ public class controlMuerte : MonoBehaviour , MMEventListener<CorgiEngineEvent>,M
         this.MMEventStopListening<CorgiEngineEvent>();
         this.MMEventStopListening<PickableItemEvent>();
     }
+   
 }
