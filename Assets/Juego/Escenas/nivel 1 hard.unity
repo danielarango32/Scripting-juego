@@ -3279,7 +3279,7 @@ PrefabInstance:
     - target: {fileID: 6075266904882949337, guid: 3cfdc062a056ee0439b55de194fc913a,
         type: 3}
       propertyPath: contadorTime
-      value: 30
+      value: 40
       objectReference: {fileID: 0}
     - target: {fileID: 6075266904882949338, guid: 3cfdc062a056ee0439b55de194fc913a,
         type: 3}

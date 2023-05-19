@@ -306,7 +306,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   menuGameOver: {fileID: 0}
-  numeroEscena: 74
+  numeroEscena: 87
 --- !u!4 &1012988419
 Transform:
   m_ObjectHideFlags: 0

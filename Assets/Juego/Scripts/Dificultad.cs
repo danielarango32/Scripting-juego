@@ -5,16 +5,17 @@ using UnityEngine.SceneManagement;
 
 public class Dificultad : MonoBehaviour
 {
+    public int numeroEscena;
     public void OnPressFacil()
     {
-        SceneManager.LoadScene("nivel 1 facil");
+        SceneManager.LoadScene(numeroEscena);
     }
     public void OnPressNormal()
     {
-        SceneManager.LoadScene("nivel 1");
+        SceneManager.LoadScene(numeroEscena);
     }
     public void OnPressDificil()
     {
-        SceneManager.LoadScene("nivel 1 hard");
+        SceneManager.LoadScene(numeroEscena);
     }
 }
