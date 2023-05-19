@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using MoreMountains.CorgiEngine;
 using MoreMountains.Tools;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 
 public class controlMuerte : MonoBehaviour , MMEventListener<CorgiEngineEvent>,MMEventListener<PickableItemEvent>
@@ -17,6 +18,8 @@ public class controlMuerte : MonoBehaviour , MMEventListener<CorgiEngineEvent>,M
     private int contador_llaves;
 
     [SerializeField] private int total_llaves;
+
+    public event EventHandler muerte;
     
     // Start is called before the first frame update
     void Start()
@@ -39,6 +42,9 @@ public class controlMuerte : MonoBehaviour , MMEventListener<CorgiEngineEvent>,M
             if (vidas == 0)
             {
                 Debug.Log("Game Over");
+                SceneManager.LoadScene("GameOver");
+                muerte?.Invoke(this,EventArgs.Empty);
+                
             }
         }
         
