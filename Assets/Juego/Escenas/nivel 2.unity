@@ -8419,6 +8419,11 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: -28
       objectReference: {fileID: 0}
+    - target: {fileID: 2681703184870981871, guid: 9c75f549963dd2b4d9e10d2098ec7f2e,
+        type: 3}
+      propertyPath: contadorTime
+      value: 60
+      objectReference: {fileID: 0}
     - target: {fileID: 6778448504303499738, guid: 9c75f549963dd2b4d9e10d2098ec7f2e,
         type: 3}
       propertyPath: muro
