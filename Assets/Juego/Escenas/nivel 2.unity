@@ -2025,7 +2025,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 599b5c6176b2a3b429ea07c5a44172de, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  numeroEscena: 76
+  numeroEscena: 7
 --- !u!1001 &374356709
 PrefabInstance:
   m_ObjectHideFlags: 0

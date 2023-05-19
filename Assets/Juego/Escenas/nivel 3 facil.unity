@@ -1690,7 +1690,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 599b5c6176b2a3b429ea07c5a44172de, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  numeroEscena: 78
+  numeroEscena: 9
 --- !u!4 &499485643 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400002, guid: ab524d28884c5ae45bc5ed37e79a0855,
@@ -2346,7 +2346,7 @@ PrefabInstance:
     - target: {fileID: 4150770060599392532, guid: 61ae1ef0b5e11434eb370690d4c7abb4,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -20.38
+      value: -20.64
       objectReference: {fileID: 0}
     - target: {fileID: 4150770060599392532, guid: 61ae1ef0b5e11434eb370690d4c7abb4,
         type: 3}

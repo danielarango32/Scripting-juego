@@ -306,7 +306,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   menuGameOver: {fileID: 0}
-  numeroEscena: 87
+  numeroEscena: 17
 --- !u!4 &1012988419
 Transform:
   m_ObjectHideFlags: 0
@@ -550,6 +550,26 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1844784182954778475, guid: 32b431d7452727c4ea3cdb4fcf62f7ef,
+        type: 3}
+      propertyPath: m_fontColor.b
+      value: 0.21747494
+      objectReference: {fileID: 0}
+    - target: {fileID: 1844784182954778475, guid: 32b431d7452727c4ea3cdb4fcf62f7ef,
+        type: 3}
+      propertyPath: m_fontColor.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1844784182954778475, guid: 32b431d7452727c4ea3cdb4fcf62f7ef,
+        type: 3}
+      propertyPath: m_fontColor.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1844784182954778475, guid: 32b431d7452727c4ea3cdb4fcf62f7ef,
+        type: 3}
+      propertyPath: m_fontColor32.rgba
+      value: 4281794815
       objectReference: {fileID: 0}
     - target: {fileID: 1844784182954778477, guid: 32b431d7452727c4ea3cdb4fcf62f7ef,
         type: 3}
