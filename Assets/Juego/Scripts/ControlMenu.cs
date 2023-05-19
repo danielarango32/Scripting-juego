@@ -20,8 +20,8 @@ public class ControlMenu : MonoBehaviour
     {
         SceneManager.LoadScene("Creditos", LoadSceneMode.Single);
     }
-    public void OnPressMenu()
+    public void OnPressExit()
     {
-        SceneManager.LoadScene("MenuPrincipal", LoadSceneMode.Single);
+        Application.Quit();
     }
 }
