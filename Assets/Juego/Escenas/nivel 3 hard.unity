@@ -4929,7 +4929,7 @@ PrefabInstance:
     - target: {fileID: 6075266904882949337, guid: 3cfdc062a056ee0439b55de194fc913a,
         type: 3}
       propertyPath: contadorTime
-      value: 60
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 6075266904882949338, guid: 3cfdc062a056ee0439b55de194fc913a,
         type: 3}
@@ -5851,6 +5851,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1041066297}
     m_Modifications:
+    - target: {fileID: 8773026118666844612, guid: 4e10e76f9bad5d54da22f679fc696da1,
+        type: 3}
+      propertyPath: corazon.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8773026118961901926, guid: 4e10e76f9bad5d54da22f679fc696da1,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8773026120180579374, guid: 4e10e76f9bad5d54da22f679fc696da1,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8773026120521789450, guid: 4e10e76f9bad5d54da22f679fc696da1,
         type: 3}
       propertyPath: m_Pivot.x

@@ -5,11 +5,12 @@ using TMPro;
 using Unity.PlasticSCM.Editor.WebApi;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 
 public class Timer : MonoBehaviour
 {
-    private int contadorTime = 60;
+    [SerializeField] private int contadorTime;
 
     [SerializeField] private TMP_Text timer;
     
@@ -40,6 +41,7 @@ public class Timer : MonoBehaviour
 
         if (contadorTime <= 0)
         {
+            SceneManager.LoadScene("GameOver");
             _muerte?.Invoke(this,EventArgs.Empty);
         }
         

@@ -5,9 +5,12 @@ using UnityEngine.SceneManagement;
 
 public class ControlMenu : MonoBehaviour
 {
+    
     public void OnPressJugar()
     {
-        SceneManager.LoadScene("Intro", LoadSceneMode.Single);
+       
+        SceneManager.LoadScene("Intro", LoadSceneMode.Single); 
+        
     }
     public void OnPressInstrucciones()
     {

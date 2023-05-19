@@ -2025,7 +2025,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 599b5c6176b2a3b429ea07c5a44172de, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  numeroEscena: 76
+  numeroEscena: 86
 --- !u!1001 &374356709
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8418,6 +8418,26 @@ PrefabInstance:
         type: 3}
       propertyPath: m_AnchoredPosition.y
       value: -28
+      objectReference: {fileID: 0}
+    - target: {fileID: 2681703184684587473, guid: 9c75f549963dd2b4d9e10d2098ec7f2e,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2681703184870981871, guid: 9c75f549963dd2b4d9e10d2098ec7f2e,
+        type: 3}
+      propertyPath: contadorTime
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 2681703185669872699, guid: 9c75f549963dd2b4d9e10d2098ec7f2e,
+        type: 3}
+      propertyPath: corazon.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2681703185945203865, guid: 9c75f549963dd2b4d9e10d2098ec7f2e,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6778448504303499738, guid: 9c75f549963dd2b4d9e10d2098ec7f2e,
         type: 3}

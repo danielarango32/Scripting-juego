@@ -7,18 +7,14 @@ public class Dificultad : MonoBehaviour
 {
     public void OnPressFacil()
     {
-        SceneManager.LoadScene("Intro", LoadSceneMode.Single);
+        SceneManager.LoadScene("nivel 1 facil");
     }
     public void OnPressNormal()
     {
-        SceneManager.LoadScene("Instrucciones", LoadSceneMode.Single);
+        SceneManager.LoadScene("nivel 1");
     }
     public void OnPressDificil()
     {
-        SceneManager.LoadScene("Creditos", LoadSceneMode.Single);
-    }
-    public void OnPressDificultad()
-    {
-        SceneManager.LoadScene("MenuPrincipal", LoadSceneMode.Single);
+        SceneManager.LoadScene("nivel 1 hard");
     }
 }

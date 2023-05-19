@@ -248,4 +248,25 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Juego/Escenas/GameOver.unity
     guid: 9602c1d934f2075408246cc821fc63db
+  - enabled: 1
+    path: Assets/Juego/Escenas/nivel 1 facil.unity
+    guid: 1489a50003344c24fbf383fc234d7d49
+  - enabled: 1
+    path: Assets/Juego/Escenas/nivel 1 hard.unity
+    guid: 3799088438e66f747b9fcfab2769f672
+  - enabled: 1
+    path: Assets/Juego/Escenas/nivel 2 facil.unity
+    guid: dcc92e9b5eedeb640835c922d6832411
+  - enabled: 1
+    path: Assets/Juego/Escenas/nivel 2 hard.unity
+    guid: db88aca713f924b47b76adade74f9950
+  - enabled: 1
+    path: Assets/Juego/Escenas/nivel 3 facil.unity
+    guid: f2c1e86b35f14bc46ba428b3ecbfe9d6
+  - enabled: 1
+    path: Assets/Juego/Escenas/nivel 3 hard.unity
+    guid: 24c7b340a4ccc624d880dfedfda42a9c
+  - enabled: 1
+    path: Assets/Juego/Escenas/Dificultad.unity
+    guid: 91299ecf66c62d74d9852a03d64d1da3
   m_configObjects: {}
