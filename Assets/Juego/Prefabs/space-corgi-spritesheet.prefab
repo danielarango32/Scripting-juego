@@ -457,7 +457,7 @@ MonoBehaviour:
   JetpackRefuelCooldown: 1
   RefuelSpeed: 0.5
   MinimumFuelRequirement: 0.2
-  JetpackRefueledSfx: {fileID: 8300000, guid: 61e3d0e18e21c4916a8b36fd2a77e5b5, type: 3}
+  JetpackRefueledSfx: {fileID: 8300000, guid: c7b6e0ecefedad34f8e62053fa6f7871, type: 3}
   JetpackFuelDurationLeft: 0
 --- !u!114 &520914173891475547
 MonoBehaviour:
@@ -5483,7 +5483,6 @@ ParticleSystemRenderer:
   m_RendererPriority: 0
   m_Materials:
   - {fileID: 2100000, guid: 1888fd7255deebd458cfba33e8407e1f, type: 2}
-  - {fileID: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -5735,7 +5734,7 @@ MonoBehaviour:
     Quantized: 0
     TargetBPM: 120
   DebugActive: 0
-  Sfx: {fileID: 8300000, guid: fc6a8ed8f767ee7449dc2f51593060a7, type: 3}
+  Sfx: {fileID: 8300000, guid: a529bbbcd6af63b43b81a0f681152658, type: 3}
   RandomSfx: []
   TestButton: 0
   TestStopButton: 0
