@@ -703,9 +703,9 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "\t             Mouse y teclado \t        Mando \r\nMoverse \t          
-    A,S,W,D\t            JOYSTICK 1\r\nDisparar \t               E\t                
-    RT\r\nJetpack \t               2\t                 B\r\nDash\t                      
-    F\t                 Y\r\nAbrir puertas\t       G\t\r\nSaltar\t           SPACIO                 
+    A,S,W,D\t            JOYSTICK 1\r\nDisparar           E o CLICK 1\t         RT\r\nJetpack
+    \t               2\t                 B\r\nDash\t                       F\t                
+    Y\r\nAbrir puertas\t       G\t\r\nSaltar\t           SPACIO                 
     A\r\nPausa\t             ESC\t             START\r\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 9e1695c82df14c74084770f457067f67, type: 2}
